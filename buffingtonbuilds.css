@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* This will be the color of your "margins" */
+    margin: 0;
+    padding: 0;
+    color: teal;
+}
+
+
+
+header {
+    background-color: black;
+    color: teal;
+    padding: 5vh 0;
+    text-align: center;
+    text-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 30px cyan, 0 0 40px cyan;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.myList {
+    background-color: black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    color: white;
+    size: 10%;
+    height: 20%;
+    padding: 5vh;
+}
+
+.myImage {
+    width: 500px;
+    height: 600px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.myImage2 {
+    width: 800px;
+    height: 600px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    color: teal;
+    align-items: center;
+    justify-content: center; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+nav ul li {
+    background-color: rgba(255, 255, 255, 0.125); /* Changed this line */
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+    margin-right: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: teal;
+}
+
+nav ul li:hover {
+    outline: 2px solid yellow;
+    background-color: rgba(229, 250, 7, 0.25);
+    color: green;    
+}
+
+nav ul li:hover {
+    outline: 2px solid yellow;
+    background-color: rgba(229, 250, 7, 0.25);
+}
+
+nav ul li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: teal;
+}
+nav ul li a:hover {
+    color: green;
+}
+
+
+main {
+    padding: 20vh;
+}
+
+section {
+    color:teal;
+    background-color: black;
+    margin: 20px 0;
+    padding: 30vh;
+}
+
+footer {
+    background-color: black;
+    color: teal;
+    text-align: center;
+    padding: 5vh 0;
+}
